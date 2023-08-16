@@ -1,0 +1,156 @@
+/* general */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    vertical-align: middle;
+    margin-top: 72px;
+    transition: color 500ms ease-in-out, background-color 500ms ease-in-out;
+}
+
+a {
+    color:inherit;
+    text-decoration: none;
+}
+
+.dark-mode {
+    background-color:#181818; 
+    color: #FFF8E7;
+    fill: #FFF8E7;
+}
+
+.light-mode {
+    background-color:white; 
+    color: black;
+    fill: black;
+}
+
+
+/* divs w/ animations*/
+.nav {
+    justify-content: space-between;
+    display: flex;
+ 
+    /* opacity: 0;
+    animation: fadeIn 1s ease-in;
+    animation-fill-mode: forwards; */
+}
+
+.subtitles {
+    justify-content: left;
+    align-items: center;
+    display: flex;
+
+    /* opacity: 0;
+    animation: fadeIn 1s ease-in 1000ms;
+    animation-fill-mode: forwards; */
+}
+
+.paragraphs {
+    opacity: 0;
+    animation: fadeIn 1s ease-in 500ms;
+    animation-fill-mode: forwards;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    font-size: 24px;
+
+    /* opacity: 0;
+    animation: fadeIn 1s ease-in 750ms;
+    animation-fill-mode: forwards; */
+}
+
+.btn-out {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    /* opacity: 0;
+    animation: fadeIn 1s ease-in 250ms;
+    animation-fill-mode: forwards; */
+}
+
+.links-spacing{
+    padding-right: 1px;
+    
+    /* opacity: 0;
+    animation: fadeIn 1s ease-in 750ms;
+    animation-fill-mode: forwards; */
+}
+
+/* divs w/o animations */
+.body-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.body-par {
+    margin: auto;
+    width: 60%;
+    padding: 10px;  
+}
+
+.earth {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.earth-box {
+    display: flexbox;
+}
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    border:none;
+    background-color:transparent;
+    color:inherit;
+    font-size: 0px;
+    padding: 0%;
+    cursor:pointer;
+}
+
+.subtitlecontainer{
+    padding-right: 8px;
+}
+
+/* at-rules */
+/* @media only screen and (max-width: 900px) {
+    body {
+        margin-top: 0px;
+    }
+    
+    .body-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .body-par{
+        width: 100%;
+    }
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;} 
+}
+*/
